@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Description of the data}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Description of methods}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Last Value Model}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Moving Average Model}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Recurrent Neural Network}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}LSTM}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}GRU}{5}{}%
+\contentsline {section}{\numberline {2}Results}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Descriptive Statistics}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Last Value Model}{7}{}%
+\contentsline {subsection}{\numberline {2.3}Moving Average Model}{7}{}%
+\contentsline {section}{\numberline {3}Discussion}{8}{}%
