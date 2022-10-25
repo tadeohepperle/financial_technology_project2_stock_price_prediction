@@ -156,11 +156,12 @@ The bottom chart shows the K (blue line) and D (orange line) statistics, both co
   \caption{Sequence diagram}
 \end{figure}
 
+In the candlestick chart, red sticks represent days where the stockprice decreased, green sticks indicate an increase in the price. The same color coding is also used for the bars of the volume chart. We see that the proportion of increasing days is roughly equal to decreasing days. The KD-chart oscillator curve looks mainly random, we cannot observe a strong pattern from it.
 Before applying any prediction model the features and labels (Close price of the next day) were min-max normalized to a range between 0 and 1. The weekdays were computed from the date and one-hot-encoded.
 
 \subsection{Last Value Model}
 
-As a baseline for all further learning we need to know how well we can predict the next Close price with a very simple model: What if we just take the last day's Close price as the prediction?
+As a  baseline for all further learning we need to know how well we can predict the next Close price with a very simple model: What if we just take the last day's Close price as the prediction?
 Such a model yields results on the 3 data set slices like displayed in Table~\ref{tab:last_value_model} and gives price predictions like shown in Figure~\ref{fig:last_value_model}.
 
 \begin{figure}[htb]
